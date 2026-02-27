@@ -133,6 +133,26 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+### Skill Breakdown: PDF, Tables, and Full-Stack AI Workflows
+
+Helpful skill focus areas for document extraction and app delivery:
+
+- **PDF extraction** - text extraction, OCR fallback, page segmentation, metadata parsing
+- **Table extraction** - table detection, structure reconstruction, merged-cell handling, confidence scoring
+- **Docling** - document pipeline orchestration, layout-aware parsing, multimodal document conversion
+- **PyMuPDF** - high-speed PDF parsing, coordinate-based text extraction, annotation/form handling
+- **Python** - data pipelines, ETL scripting, async workers, model/tool integration
+- **AI table extraction** - model-assisted table boundary detection, semantic column typing, noisy-scan recovery
+- **Next.js** - SSR/ISR app architecture, API routes, file upload workflows, background job integration
+- **Docker environments** - reproducible local/dev/prod containers, dependency isolation, deployment parity
+- **Pydantic** - schema validation, typed extraction payloads, strict parsing and error reporting
+- **SurrealDB** - graph/document data modeling, vector-ready storage patterns, realtime query workflows
+- **SQL** - query optimization, relational modeling, joins/window functions for extracted datasets
+- **CSV/spreadsheets** - normalization, type-safe export/import, formula-safe output formatting
+- **React** - document viewer UIs, table review/edit interfaces, state-driven data workflows
+- **AG-UI (Agentic UI)** - agent-centric UI orchestration, tool-call visibility, interactive workflow controls
+- **A2A (Agent-to-Agent)** - agent-to-agent coordination, handoff protocols, multi-agent pipeline design
+
 ## ✏️ Creating Your First Skill
 
 <details>
