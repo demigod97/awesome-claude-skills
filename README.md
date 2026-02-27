@@ -133,6 +133,46 @@ _More community skills coming soon! Submit a PR to add your skill._
 
 - **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** - Convert documentation websites into Claude Skills
 
+## 🔍 Skills by Use Case
+
+A quick-reference guide for finding skills relevant to common workflows.
+
+### PDF, OCR & Table Extraction
+
+| Use Case | Relevant Skill(s) | Notes |
+|----------|-------------------|-------|
+| PDF text & table extraction | **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | Extracts text, tables, and form fields from PDFs; merges/splits documents |
+| Spreadsheet / tabular data | **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** | Read and write Excel tables; supports formulas and data analysis |
+| OCR (image-to-text) | *No dedicated skill yet* | The `pdf` skill handles text-layer PDFs; pure-image OCR skills are a great contribution opportunity |
+| Document conversion | **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)**, **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** | Convert and extract content from Word and PowerPoint files |
+
+### RAG (Retrieval-Augmented Generation)
+
+| Use Case | Relevant Skill(s) | Notes |
+|----------|-------------------|-------|
+| Building RAG pipelines | *No dedicated skill yet* | A RAG skill covering chunking, embedding, and retrieval would be a high-value community contribution |
+| Scientific data & databases | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Interfaces with specialized scientific libraries that can serve as retrieval backends |
+| External API / data integration | **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** | Build MCP servers to connect Claude to vector databases and retrieval APIs |
+
+### Docker & Environment Setup
+
+| Use Case | Relevant Skill(s) | Notes |
+|----------|-------------------|-------|
+| Docker & containerization | *No dedicated skill yet* | A skill for writing Dockerfiles, Compose configs, and debugging containers would be a valuable contribution |
+| Development environments | *No dedicated skill yet* | Skills for managing virtual envs, `pyproject.toml`, and dependency resolution are good contribution candidates |
+| Local web app testing | **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** | Tests local applications with Playwright, useful for verifying containerized services |
+
+### Python, Pydantic & SurrealDB
+
+| Use Case | Relevant Skill(s) | Notes |
+|----------|-------------------|-------|
+| Python scripting & data science | **[claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** | Covers scientific Python libraries (NumPy, pandas, etc.) |
+| Pydantic models & validation | *No dedicated skill yet* | A skill for generating and validating Pydantic v2 models and schemas would fill a real gap |
+| SurrealDB integration | *No dedicated skill yet* | A SurrealDB skill covering queries, schema design, and live queries would be a great contribution |
+| MCP / API integration | **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** | Useful for building Python-based MCP servers that wrap SurrealDB or any REST API |
+
+> 💡 **See a gap?** Skills marked *"No dedicated skill yet"* are great opportunities to contribute. See [CONTRIBUTING.md](CONTRIBUTING.md) for submission guidelines.
+
 ## ✏️ Creating Your First Skill
 
 <details>
